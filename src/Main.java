@@ -42,7 +42,14 @@ public class Main {
         System.out.println("Вес второго боксера больше веса первого на "+differenceWeightBoxer + "кг");
         var excessWeightBoxer=twoBoxer % oneBoxer;
         System.out.println("Разница между весами боксеров "+excessWeightBoxer + "кг");
-
+        var totalHours=640;
+        var timeOneEmployee=8;
+        var totalEmployee=totalHours/timeOneEmployee;
+        System.out.println("Всего работников в компании - " +totalEmployee + " человек");
+        var extraEmployee=94;
+        var extraTotalEmployee=totalEmployee+extraEmployee;
+        var extraTotalHours=extraTotalEmployee*timeOneEmployee;
+        System.out.println("Если в компании работает "+extraTotalEmployee + " человек, то всего " +extraTotalHours + " часов работы может быть поделено между сотрудниками.");
     }
 
 }
