@@ -49,6 +49,6 @@ public class Main {
         var extraEmployee=94;
         var extraTotalEmployee=totalEmployee+extraEmployee;
         var extraTotalHours=extraTotalEmployee*timeOneEmployee;
-        System.out.println("Если в компании работает "+extraTotalEmployee + " человек, то всего " +extraTotalHours + " часов работы может быть поделено между сотрудниками.");
+        System.out.println("Если в компании работает "+extraTotalEmployee + " человек, то всего " +extraTotalHours + " часов работы может быть поделено между сотрудниками.");}
 }
 
